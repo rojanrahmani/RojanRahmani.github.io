@@ -465,6 +465,11 @@ body {
 .timeline-achievements li.sub-item::before {
     content: "";
 }
+.timeline-achievements li.main-item strong {
+    color: #A5B4FF;  /* Indigo-200 */
+    font-weight: 700;
+}
+
 
 /* ========================================
    RESPONSIVE
