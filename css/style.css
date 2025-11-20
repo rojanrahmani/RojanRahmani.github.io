@@ -143,11 +143,11 @@ body {
     align-items: center;
     text-align: center;
 
-    /* Full dark theme */
+    /* Clean soft spotlight — no grey ring */
     background: radial-gradient(
-        circle at top,
-        rgba(79, 70, 229, 0.16),   /* soft academic indigo glow */
-        #0B0C0F 70%
+        700px circle at top center,
+        rgba(255, 255, 255, 0.04),
+        rgba(11, 12, 15, 1) 70%
     );
 
     color: var(--text-primary);
@@ -277,6 +277,11 @@ body {
 /* ------- SECTION HEADERS ------- */
 .section {
     padding: 5rem 0;
+}
+.section,
+.section-alt {
+    background: var(--bg-primary) !important;
+    color: var(--text-primary) !important;
 }
 
 .section-title {
